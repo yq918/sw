@@ -57,7 +57,7 @@ class File
         }
     }
 
-    function __construct($save_dir, $online_dir = '/usr/local/nginx/html/swoole/swoole-test/users/us')
+    function __construct($save_dir, $online_dir = '/usr/local/nginx/html/swoole/sw/users/us')
     {
         $this->online_dir = $online_dir;
         $this->checkDir($this->online_dir, true);
