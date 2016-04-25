@@ -2,359 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5da213b-4d05-4e7f-979b-22f19c06ed4e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sw.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_server.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\License.txt" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\README.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\apps\classes\DAO\User.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\apps\classes\Test.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\apps\configs\cache.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\apps\configs\db.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\apps\configs\event.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\apps\configs\log.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\apps\configs\mongo.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\apps\configs\redis.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\apps\configs\rewrite.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\apps\configs\session.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\apps\configs\upload.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\apps\configs\user.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\apps\controllers\Ajax.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\apps\controllers\Db.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\apps\controllers\Event.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\apps\controllers\Home.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\apps\controllers\Http.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\apps\controllers\Page.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\apps\controllers\Redis.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\apps\controllers\Session.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\apps\controllers\User.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\apps\factory\user1.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\apps\models\User.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\apps\templates\tpl_test.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\apps\templates\user\login.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\apps\templates\view_test.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\composer.json" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\composer.lock" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\doc\bench.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\examples\Readme.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\examples\app_server.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\examples\builtin_webserver.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\examples\class\Test.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\examples\comet_client.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\examples\echo_server.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\examples\event_workers.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\examples\fastcgi_server.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\examples\for_fpm\index.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\examples\ftp_server.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\examples\http_client.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\examples\http_server.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\examples\multi_sql.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\examples\soa_client.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\examples\soa_server.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\examples\ssl\ssl.crt" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\examples\ssl\ssl.csr" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\examples\ssl\ssl.key" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\examples\swoole.ini" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\examples\webim\README.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\examples\webroot\error.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\examples\webroot\index.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\examples\webroot\index.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\examples\webroot\post.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\examples\webroot\ws.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\examples\websocket.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\examples\websocket_client.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\examples\websocket_client_async.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\examples\websocket_client_sync.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\examples\websocket_server.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\index.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\ArrayObject.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Async\HttpClient.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Async\MySQL.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Async\WebSocket.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Auth.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Binary.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\CLPack.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Cache.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Cache\DBCache.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Cache\FileCache.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Cache\Memcache.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Cache\Redis.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Cache\SaeMemcache.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Client.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Client\CLMySQL.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Client\CURL.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Client\CoMySQL.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Client\CoURL.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Client\Http.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Client\Rest.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Client\SOA.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Client\Socket.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Client\TCP.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Client\UDP.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Client\WebSocket.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Config.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Console.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Content.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Controller.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Cookie.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Csv.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\DES.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\DOM\Node.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\DOM\Tree.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\DataSource.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Database.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Database\MySQL.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Database\MySQLi.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Database\PdoDB.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Date.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Env.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Error.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Event.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Exception\Factory.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Exception\NotFound.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Factory.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Filter.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Form.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\GeneralView.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\HTML.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Html\Table.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Http.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Http\ExtParser.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Http\ExtServer.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Http\LAMP.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Http\PWS.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Http\Parser.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Http\WebSocketParser.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\IFace\Cache.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\IFace\Http.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\IFace\HttpParser.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\IFace\Log.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\IFace\Protocol.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\IFace\Queue.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Image.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\ImageLocal.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\JS.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Limit.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Loader.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Lock\DB.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Lock\File.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Log.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Log\DBLog.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Log\EchoLog.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Log\FileLog.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Log\PHPLog.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Model.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\ModelLoader.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Model\Dict.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Network\BlockTCP.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Network\BlockUDP.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Network\EventTCP.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Network\EventUDP.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Network\SelectTCP.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Network\SelectUDP.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Network\Server.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Network\Socket.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Network\Stream.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Object.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\PageCache.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Pager.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Phar.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\PluginLoader.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Protocol\AppFPM.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Protocol\AppServer.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Protocol\Base.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Protocol\ChatServer.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Protocol\CometServer.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Protocol\FastCGI.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Protocol\FlashPolicy.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Protocol\FtpServer.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Protocol\HttpServer.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Protocol\QueueServer.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Protocol\SOAServer.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Protocol\WebServer.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Protocol\WebSocket.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Queue.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Queue\Cache.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Queue\File.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Queue\HttpSqs.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Queue\MsgQ.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\RandomKey.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Redis.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Request.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Response.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\SelectDB.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Server\Base.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Server\Driver.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Server\LinuxTCP.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Session.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\SiteDict.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Stdio.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Stream.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\String.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Swoole.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Template.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Tool.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\URL.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Upload.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\Validate.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\View.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\Swoole\WebService.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\data\field_model.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\data\field_types.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\data\media\swoole.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\data\mimes.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\data\text\error_code.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\factory\cache.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\factory\codb.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\factory\db.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\factory\event.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\factory\http.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\factory\limit.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\factory\log.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\factory\mongo.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\factory\redis.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\factory\session.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\factory\tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\factory\upload.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\factory\url.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\factory\user.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\function\cli.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\lib_config.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\GetOptionKit\LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\GetOptionKit\README.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\GetOptionKit\examples\demo.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\GetOptionKit\src\GetOptionKit\Argument.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\GetOptionKit\src\GetOptionKit\ContinuousOptionKit.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\GetOptionKit\src\GetOptionKit\ContinuousOptionParser.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\GetOptionKit\src\GetOptionKit\Exception\InvalidOptionException.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\GetOptionKit\src\GetOptionKit\Exception\RequireValueException.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\GetOptionKit\src\GetOptionKit\GetOptionKit.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\GetOptionKit\src\GetOptionKit\Init.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\GetOptionKit\src\GetOptionKit\NonNumericException.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\GetOptionKit\src\GetOptionKit\OptionParser.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\GetOptionKit\src\GetOptionKit\OptionPrinter.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\GetOptionKit\src\GetOptionKit\OptionPrinterInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\GetOptionKit\src\GetOptionKit\OptionResult.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\GetOptionKit\src\GetOptionKit\OptionSpec.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\GetOptionKit\src\GetOptionKit\OptionSpecCollection.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\GetOptionKit\src\GetOptionKit\SplClassLoader.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\GetOptionKit\tests\GetOptionKit\ArgumentTest.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\GetOptionKit\tests\GetOptionKit\ContinuousOptionParserTest.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\GetOptionKit\tests\GetOptionKit\GetOptionKitTest.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\GetOptionKit\tests\GetOptionKit\OptionResultTest.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\GetOptionKit\tests\bootstrap.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\smarty\Config_File.class.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\smarty\Smarty.class.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\smarty\Smarty_Compiler.class.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\smarty\debug.tpl" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\smarty\internals\core.assemble_plugin_filepath.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\smarty\internals\core.assign_smarty_interface.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\smarty\internals\core.create_dir_structure.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\smarty\internals\core.display_debug_console.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\smarty\internals\core.get_include_path.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\smarty\internals\core.get_microtime.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\smarty\internals\core.get_php_resource.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\smarty\internals\core.is_secure.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\smarty\internals\core.is_trusted.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\smarty\internals\core.load_plugins.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\smarty\internals\core.load_resource_plugin.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\smarty\internals\core.process_cached_inserts.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\smarty\internals\core.process_compiled_include.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\smarty\internals\core.read_cache_file.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\smarty\internals\core.rm_auto.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\smarty\internals\core.rmdir.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\smarty\internals\core.run_insert_handler.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\smarty\internals\core.smarty_include_php.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\smarty\internals\core.write_cache_file.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\smarty\internals\core.write_compiled_include.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\smarty\internals\core.write_compiled_resource.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\smarty\internals\core.write_file.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\smarty\plugins\block.textformat.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\smarty\plugins\compiler.assign.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\smarty\plugins\function.assign_debug_info.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\smarty\plugins\function.config_load.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\smarty\plugins\function.counter.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\smarty\plugins\function.cycle.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\smarty\plugins\function.debug.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\smarty\plugins\function.eval.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\smarty\plugins\function.fetch.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\smarty\plugins\function.html_checkboxes.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\smarty\plugins\function.html_image.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\smarty\plugins\function.html_options.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\smarty\plugins\function.html_radios.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\smarty\plugins\function.html_select_date.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\smarty\plugins\function.html_select_time.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\smarty\plugins\function.html_table.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\smarty\plugins\function.mailto.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\smarty\plugins\function.math.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\smarty\plugins\function.popup.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\smarty\plugins\function.popup_init.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\smarty\plugins\modifier.capitalize.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\smarty\plugins\modifier.cat.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\smarty\plugins\modifier.count_characters.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\smarty\plugins\modifier.count_paragraphs.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\smarty\plugins\modifier.count_sentences.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\smarty\plugins\modifier.count_words.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\smarty\plugins\modifier.date_format.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\smarty\plugins\modifier.debug_print_var.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\smarty\plugins\modifier.default.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\smarty\plugins\modifier.escape.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\smarty\plugins\modifier.indent.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\smarty\plugins\modifier.lower.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\smarty\plugins\modifier.nl2br.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\smarty\plugins\modifier.regex_replace.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\smarty\plugins\modifier.replace.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\smarty\plugins\modifier.spacify.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\smarty\plugins\modifier.string_format.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\smarty\plugins\modifier.strip.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\smarty\plugins\modifier.strip_tags.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\smarty\plugins\modifier.truncate.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\smarty\plugins\modifier.upper.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\smarty\plugins\modifier.wordwrap.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\smarty\plugins\outputfilter.trimwhitespace.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\smarty\plugins\shared.escape_special_chars.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\module\smarty\plugins\shared.make_timestamp.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\taglib\block.app.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\taglib\block.category.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\taglib\block.content.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\taglib\block.select.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\taglib\filter\image.filter.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\taglib\filter\link.filter.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\taglib\function.ajax.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\taglib\function.askey.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\taglib\function.cms.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\taglib\function.config.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\taglib\function.date.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\taglib\function.getall.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\taglib\function.getone.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\taglib\function.json.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\taglib\function.magic.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\taglib\function.model.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\taglib\function.sitedict.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\taglib\function.url.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\taglib\modifier.howLongAgo.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\taglib\modifier.iconv.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\taglib\modifier.mbcut.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\libs\taglib\modifier.spacefill.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\tests\async_mysql.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\tests\courl.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\tests\get_css_image.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\tests\httpclient_test.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\tests\log.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\tests\multi_db.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\tests\redis_copy.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\tests\tcp.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\swoole_framework\tests\update.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\websocket.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\websocket_client.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\websocket_client_async.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\websocket_client_sync.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\swoole\sw\websocket_server.php" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Store/File.php" afterPath="$PROJECT_DIR$/src/Store/File.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Server.php" afterPath="$PROJECT_DIR$/src/Server.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sw.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -382,20 +33,66 @@
       <file leaf-file-name="user_server.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/user_server.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.625" vertical-offset="207" max-vertical-offset="2990">
+            <state vertical-scroll-proportion="0.0" vertical-offset="207" max-vertical-offset="2990">
               <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Server.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Server.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Server.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.16360295" vertical-offset="3936" max-vertical-offset="6877">
-              <caret line="175" column="45" selection-start-line="175" selection-start-column="45" selection-end-line="175" selection-end-column="45" />
+            <state vertical-scroll-proportion="-9.09375" vertical-offset="3803" max-vertical-offset="6831">
+              <caret line="178" column="29" selection-start-line="178" selection-start-column="22" selection-end-line="178" selection-end-column="29" />
               <folding>
-                <element signature="e#20#31#0#PHP" expanded="true" />
+                <element signature="e#20#38#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-20.59375" vertical-offset="1296" max-vertical-offset="2323">
+              <caret line="85" column="53" selection-start-line="85" selection-start-column="53" selection-end-line="85" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/main.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.59375" vertical-offset="0" max-vertical-offset="3565">
+              <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="184">
+              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="chat.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/static/js/chat.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.57548845" vertical-offset="1217" max-vertical-offset="9315">
+              <caret line="67" column="38" selection-start-line="67" selection-start-column="38" selection-end-line="67" selection-end-column="38" />
+              <folding>
+                <marker date="1461553872464" expanded="true" signature="5204:5216" placeholder="..." />
+                <marker date="1461553872464" expanded="true" signature="5428:5440" placeholder="..." />
+                <marker date="1461553872464" expanded="true" signature="5468:5481" placeholder="..." />
+                <marker date="1461553872464" expanded="true" signature="5874:5887" placeholder="..." />
+                <marker date="1461553872464" expanded="true" signature="6172:6185" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -404,8 +101,8 @@
       <file leaf-file-name="File.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Store/File.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.65625" vertical-offset="2165" max-vertical-offset="4991">
-              <caret line="102" column="13" selection-start-line="102" selection-start-column="13" selection-end-line="102" selection-end-column="13" />
+            <state vertical-scroll-proportion="-8.625" vertical-offset="1104" max-vertical-offset="4991">
+              <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -414,7 +111,7 @@
       <file leaf-file-name="swoole.ini" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/swoole.ini">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="897">
+            <state vertical-scroll-proportion="0.0" vertical-offset="207" max-vertical-offset="897">
               <caret line="9" column="30" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="30" />
               <folding />
             </state>
@@ -424,7 +121,7 @@
       <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.09375" vertical-offset="0" max-vertical-offset="782">
+            <state vertical-scroll-proportion="0.0" vertical-offset="483" max-vertical-offset="782">
               <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
               <folding />
             </state>
@@ -444,6 +141,8 @@
         <option value="$PROJECT_DIR$/src/Store/Redis.php" />
         <option value="$PROJECT_DIR$/src/Store/File.php" />
         <option value="$PROJECT_DIR$/src/Server.php" />
+        <option value="$PROJECT_DIR$/client/static/js/chat.js" />
+        <option value="$PROJECT_DIR$/client/main.html" />
       </list>
     </option>
   </component>
@@ -452,7 +151,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-2" />
+    <option name="x" value="-7" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
@@ -507,25 +206,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sw" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sw" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Store" />
+              <option name="myItemId" value="client" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -557,10 +238,16 @@
       <BehatRunner />
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
       <method />
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="0" />
@@ -576,25 +263,25 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="0" width="1382" height="744" extended-state="1" />
+    <frame x="-7" y="0" width="1382" height="744" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24962063" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25341427" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -621,11 +308,52 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/user_server.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="207" max-vertical-offset="2990">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Server.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6877">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#20#38#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Store/File.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2165" max-vertical-offset="4991">
+          <caret line="102" column="13" selection-start-line="102" selection-start-column="13" selection-end-line="102" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swoole.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="207" max-vertical-offset="897">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="483" max-vertical-offset="782">
+          <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/matyhtf/swoole_framework/libs/Swoole/Server/Base.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.64889705" vertical-offset="1763" max-vertical-offset="8487">
           <caret line="92" column="34" selection-start-line="92" selection-start-column="34" selection-end-line="92" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -633,7 +361,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3382353" vertical-offset="0" max-vertical-offset="713">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -641,7 +368,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="576">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -649,7 +375,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="598">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -657,7 +382,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4227941" vertical-offset="0" max-vertical-offset="552">
           <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -665,7 +389,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.4944853" vertical-offset="997" max-vertical-offset="1541">
           <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -673,7 +396,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.21139705" vertical-offset="0" max-vertical-offset="1702">
           <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -689,7 +411,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.08455882" vertical-offset="0" max-vertical-offset="2001">
           <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -697,7 +418,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.35216573" vertical-offset="34727" max-vertical-offset="47564">
           <caret line="1518" column="6" selection-start-line="1518" selection-start-column="6" selection-end-line="1518" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -705,7 +425,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.50735295" vertical-offset="0" max-vertical-offset="1564">
           <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -713,7 +432,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.25367647" vertical-offset="0" max-vertical-offset="3335">
           <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -721,13 +439,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4375" vertical-offset="521" max-vertical-offset="2024">
           <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/user_server.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.625" vertical-offset="207" max-vertical-offset="2990">
+        <state vertical-scroll-proportion="0.0" vertical-offset="207" max-vertical-offset="2990">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
@@ -737,7 +454,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4227941" vertical-offset="3726" max-vertical-offset="4991">
           <caret line="172" column="7" selection-start-line="172" selection-start-column="7" selection-end-line="172" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -745,7 +461,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.04227941" vertical-offset="0" max-vertical-offset="1518">
           <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -753,7 +468,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3529412" vertical-offset="291" max-vertical-offset="4669">
           <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -773,28 +487,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Store/File.php">
+    <entry file="file://$PROJECT_DIR$/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.65625" vertical-offset="2165" max-vertical-offset="4991">
-          <caret line="102" column="13" selection-start-line="102" selection-start-column="13" selection-end-line="102" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="483" max-vertical-offset="782">
+          <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.php">
+    <entry file="file://$PROJECT_DIR$/src/Store/File.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.09375" vertical-offset="0" max-vertical-offset="782">
-          <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
+        <state vertical-scroll-proportion="-8.625" vertical-offset="1104" max-vertical-offset="4991">
+          <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Server.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16360295" vertical-offset="3936" max-vertical-offset="6877">
-          <caret line="175" column="45" selection-start-line="175" selection-start-column="45" selection-end-line="175" selection-end-column="45" />
+        <state vertical-scroll-proportion="-9.09375" vertical-offset="3803" max-vertical-offset="6831">
+          <caret line="178" column="29" selection-start-line="178" selection-start-column="22" selection-end-line="178" selection-end-column="29" />
           <folding>
-            <element signature="e#20#31#0#PHP" expanded="true" />
+            <element signature="e#20#38#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.59375" vertical-offset="1296" max-vertical-offset="2323">
+          <caret line="85" column="53" selection-start-line="85" selection-start-column="53" selection-end-line="85" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.59375" vertical-offset="0" max-vertical-offset="3565">
+          <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="184">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/static/js/chat.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.57548845" vertical-offset="1217" max-vertical-offset="9315">
+          <caret line="67" column="38" selection-start-line="67" selection-start-column="38" selection-end-line="67" selection-end-column="38" />
+          <folding>
+            <marker date="1461553872464" expanded="true" signature="5204:5216" placeholder="..." />
+            <marker date="1461553872464" expanded="true" signature="5428:5440" placeholder="..." />
+            <marker date="1461553872464" expanded="true" signature="5468:5481" placeholder="..." />
+            <marker date="1461553872464" expanded="true" signature="5874:5887" placeholder="..." />
+            <marker date="1461553872464" expanded="true" signature="6172:6185" placeholder="..." />
           </folding>
         </state>
       </provider>

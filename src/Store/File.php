@@ -160,7 +160,7 @@ class File
         $f = $this->online_dir.$info['name'];
         if (!is_file($f))
         {
-            return false;
+            return array();
         }
         $ret = file_get_contents($f);
         $info = unserialize($ret);

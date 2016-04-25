@@ -1,5 +1,6 @@
 <?php
 namespace SW;
+use SW\Store\File;
 use Swoole;
 use Swoole\Filter;
 
@@ -149,6 +150,7 @@ HTML;
     {
         $info['name'] = Filter::escape($msg['name']);
         $info['avatar'] = Filter::escape($msg['avatar']);
+        file_put_contents('/zhang/aa.log',var_export($msg,true),FILE_APPEND);
 
         //回复给登录用户
         $resMsg = array(
@@ -164,18 +166,14 @@ HTML;
            $userinfo =  $this->store->getUserByname($resMsg);
            $this->store->logoutByName($resMsg);
            //将下线消息发送给之前的登录人
-           $this->broadcastJson($userinfo['fd'], $resMsg);
+           $this->sendJson($userinfo['fd'], $resMsg);
            $this->close($userinfo['fd']);
            unset( $this->users[$userinfo['fd']]);
            exit;
        }
-
         //把会话存起来
         $this->users[$client_id] = $resMsg;
         $this->store->login($resMsg);
-        $this->sendJson($client_id, $resMsg);
-
-
         //用户登录消息
         $loginMsg = array(
             'cmd' => 'fromMsg',
@@ -183,7 +181,7 @@ HTML;
             'channal' => 0,
             'data' => $msg['name'] . "上线了",
         );
-        $this->broadcastJson($client_id, $loginMsg);
+        $this->sendJson($client_id, $loginMsg);
     }
 
     /**
