@@ -229,7 +229,7 @@ HTML;
       {
           try{
               $conf = array(
-                  'type' => 'FileCache',
+                  'type' => '0',
                   'cache_dir' => WEBPATH.'/cache/filecache/'
               );
               $filecache = Swoole\Cache::create($conf);
