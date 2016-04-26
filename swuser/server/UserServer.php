@@ -72,6 +72,7 @@ HTML;
             );
             $this->sendJson($client_id, $resMsg);
             $this->close($client_id);
+            exit;
         }
         //查询用户信息
         $userData =  self::getUserData($info['name'],$info['passwd']);
@@ -83,9 +84,11 @@ HTML;
             );
             $this->sendJson($client_id, $resMsg);
             $this->close($client_id);
+            exit;
         }
         session_start();
         $_SESSION['uname'] = $info['name'];
+        $_SESSION['user_id'] = $info['user_id'];
         $_SESSION['utoken'] = md5($info['name'].self::$token);
 
         $redis = self::getRedisInstance();
@@ -99,21 +102,22 @@ HTML;
             );
             $this->sendJson($client_id, $resMsg);
             $this->close($client_id);
+            exit;
         }
 
             $key = md5($_SESSION['uname']);
             $clientinfo =  $redis->get($key);
-        if(isset($clientinfo) && !empty($clientinfo)){
+          if(isset($clientinfo) && !empty($clientinfo)){
             //表示已经有人登录了 回复给登录用户
             $resMsg = array(
                 'cmd' => 'login',
-                'fd' => $client_id,
+                'fd' => $clientinfo,
                 'data' => '你的帐号在别的地方登录'
             );
             //将下线消息发送给之前的登录人
             $this->sendJson($clientinfo, $resMsg);
             $this->close($clientinfo);
-            return ;
+            exit ;
         }
 
         $redis -> set($key,$client_id);
