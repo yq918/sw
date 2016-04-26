@@ -8,11 +8,11 @@ use Swoole\Filter;
 
 class UserServer extends Swoole\Protocol\WebSocket
 {
-    private static $config;
-    private static $_redisClient;
-    private static $_mysqlClient;
-    private static $_sessionClient;
-    private static $token = '123456';
+    protected static $clconfig;
+    protected static $_redisClient;
+    protected static $_mysqlClient;
+    protected static $_sessionClient;
+    protected static $token = '123456';
 
     function __construct($config = array())
     {
@@ -46,7 +46,7 @@ HTML;
             self::getSession()->initSess();
         }
 
-        self::$config = $config;
+        self::$clconfig = $config;
     }
 
 
@@ -187,7 +187,7 @@ HTML;
      * */
     public static function getRedisInstance()
     {
-        $config = self::$config;
+        $config = self::$clconfig;
         if(!(self::$_redisClient instanceof swoole_redis))
         {
             try{
@@ -205,7 +205,7 @@ HTML;
     * */
     public static function getMysqlInstance()
     {
-        $config = self::$config;
+        $config = self::$clconfig;
         if(!(self::$_mysqlClient instanceof Swoole\SelectDB))
         {
             try{
