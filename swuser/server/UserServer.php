@@ -246,7 +246,7 @@ HTML;
         $apt =  self::getMysqlInstance();
         $apt->from('users');
         $apt->equal('username', $username);
-        $apt->equal('password', md5($password));
+        $apt->equal('password', ($password));
         $res = $apt->getall();
         return $res;
     }
