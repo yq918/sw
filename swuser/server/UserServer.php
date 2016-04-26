@@ -257,4 +257,43 @@ HTML;
     }
 
 
+    function onTask($serv, $task_id, $from_id, $data)
+    {
+        $req = unserialize($data);
+        if ($req)
+        {
+            switch($req['cmd'])
+            {
+                case 'getHistory':
+                    $history = array('cmd'=> 'getHistory', 'history' => $this->store->getHistory());
+                    if ($this->isCometClient($req['fd']))
+                    {
+                        return $req['fd'].json_encode($history);
+                    }
+                    //WebSocket客户端可以task中直接发送
+                    else
+                    {
+                        $this->sendJson(intval($req['fd']), $history);
+                    }
+                    break;
+                case 'addHistory':
+                    if (empty($req['msg']))
+                    {
+                        $req['msg'] = '';
+                    }
+                    $this->store->addHistory($req['fd'], $req['msg']);
+                    break;
+                default:
+                    break;
+            }
+        }
+    }
+
+    function onFinish($serv, $task_id, $data)
+    {
+        $this->send(substr($data, 0, 32), substr($data, 32));
+    }
+
+
+
 }
