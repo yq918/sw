@@ -228,7 +228,12 @@ HTML;
       if(!(self::$_sessionClient instanceof Swoole\Session))
       {
           try{
-              self::$_sessionClient = new Swoole\Session('FileCache');
+              $conf = array(
+                  'type' => 'FileCache',
+                  'cache_dir' => WEBPATH.'/cache/filecache/'
+              );
+              $filecache = Swoole\Cache::create($conf);
+              self::$_sessionClient = new Swoole\Session($filecache);
           }catch(\Exception $e)
           {
               self::$_sessionClient = NULL;
