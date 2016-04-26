@@ -22,7 +22,7 @@ var webim = {
     'server' : '{$config['server']['url']}'
 }
 HTML;
-        file_put_contents(WEBPATH . '/admin/config.js', $config_js);
+        file_put_contents(WEBPATH . '/admin/js/config.js', $config_js);
 
         //检测日志目录是否存在
         if (isset($config['user']['log_file']) && !empty($config['user']['log_file'])) {
@@ -71,7 +71,7 @@ HTML;
                 'data' => '请输入用户名与密码'
             );
             $this->sendJson($client_id, $resMsg);
-            $this->close($client_id);
+          //  $this->close($client_id);
             exit;
         }
         //查询用户信息
@@ -83,7 +83,7 @@ HTML;
                 'data' => '用户信息错误，没有此用户'
             );
             $this->sendJson($client_id, $resMsg);
-            $this->close($client_id);
+           // $this->close($client_id);
             exit;
         }
         session_start();

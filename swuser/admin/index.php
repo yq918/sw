@@ -1,3 +1,7 @@
+<?php
+include 'controllers/checkprov.php';
+?>
+
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -22,6 +26,9 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
  <!-- js-->
 <script src="js/jquery-1.11.1.min.js"></script>
 <script src="js/modernizr.custom.js"></script>
+
+
+
 <!--webfonts-->
 <link href='http://fonts.useso.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
 <!--//webfonts--> 
@@ -1300,6 +1307,13 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 
 		</script>
 		<!-- //status -->
-		
+
+<input type="hidden" value="<?php echo $_COOKIE['muser'];  ?>" name="muser" id="muser"/>
+<input type="hidden" value="<?php echo $_COOKIE['mpasswd']; ?>" name="mpasswd" id="mpasswd" />
+
+
+    <script src="js/config.js"></script>
+    <script src="js/chat.js"></script>
+
 </body>
 </html>

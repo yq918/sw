@@ -24,7 +24,7 @@ $config['user'] = array(
 );
 
 $config['redis'] = array(
-    'host'    => "127.0.0.1",
+    'host'    => "192.168.68.1",
     'port'    => 6379,
     'password' => '',
     'timeout' => 0.25,
@@ -33,12 +33,12 @@ $config['redis'] = array(
 );
 $config['dbmaster'] = array(
     'type'       => Swoole\Database::TYPE_MYSQLi,
-    'host'       => "127.0.0.1",
+    'host'       => "192.168.68.1",
     'port'       => 3306,
     'dbms'       => 'mysql',
     'engine'     => 'MyISAM',
     'user'       => "root",
-    'passwd'     => "root",
+    'passwd'     => "",
     'name'       => "test",
     'charset'    => "utf8",
     'setname'    => true,
