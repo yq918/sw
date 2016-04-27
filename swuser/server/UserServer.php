@@ -75,7 +75,8 @@ HTML;
             exit;
         }
         //查询用户信息
-        $userData =  self::getUserData($info['name'],$info['passwd']);
+       // $userData =  self::getUserData($info['name'],$info['passwd']);
+        $userData = '111';
         if(empty($userData)){
             $resMsg = array(
                 'cmd' => 'input',
@@ -190,10 +191,10 @@ HTML;
     public static function getRedisInstance()
     {
         $config = self::$clconfig;
-        if(!(self::$_redisClient instanceof swoole_redis))
+        if(!(self::$_redisClient instanceof Swoole\Redis))
         {
             try{
-               self::$_redisClient = new swoole_redis($config['host'],$config['port']);
+               self::$_redisClient = new Swoole\Redis($config['redis']);
             }catch(\Exception $e)
             {
                 self::$_redisClient = NULL;
