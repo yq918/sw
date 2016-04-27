@@ -14,10 +14,9 @@ if(empty($user) || empty($password) )
     echo "<script>window.history.go(-1);</script>";
     exit;
 }
-setcookie('muser',  $user);
-setcookie('mpasswd',$password);
-$_COOKIE['muser'] = $user;
-$_COOKIE['mpasswd'] = $password;
+setcookie('muser',  $user,0,'/','swoole.test.cc');
+setcookie('mpasswd',$password,0,'/','swoole.test.cc');
+
 
 echo "<script>window.location.href='../index.php'</script>";
 exit;
