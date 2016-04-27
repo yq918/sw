@@ -32,7 +32,7 @@ $config['redis'] = array(
 //    'database' => 1,
 );
 $config['dbmaster'] = array(
-    'type'       => Swoole\Database::TYPE_MYSQLi,
+    'type'       => Swoole\Database::TYPE_MYSQL,
     'host'       => "192.168.68.1",
     'port'       => 3306,
     'dbms'       => 'mysql',

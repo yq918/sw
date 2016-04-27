@@ -208,10 +208,12 @@ HTML;
     public static function getMysqlInstance()
     {
         $config = self::$clconfig;
-        if(!(self::$_mysqlClient instanceof Swoole\SelectDB))
+        if(!(self::$_mysqlClient instanceof Swoole\Database))
         {
             try{
-                self::$_mysqlClient = new Swoole\SelectDB($config['dbmaster']);
+                //$db = new  Swoole\Database( $config['dbmaster'] );
+
+                self::$_mysqlClient = new Swoole\Database($config['dbmaster']);
             }catch(\Exception $e)
             {
                 self::$_mysqlClient = NULL;
@@ -251,10 +253,10 @@ HTML;
     public static function getUserData($username,$password)
     {
         $apt =  self::getMysqlInstance();
-        $apt->from('users');
-        $apt->equal('username', $username);
-        $apt->equal('password', ($password));
-        $res = $apt->getall();
+        $apt->db_apt->from('users');
+        $apt->db_apt->equal('username', $username);
+        $apt->db_apt->equal('password', ($password));
+        $res = $apt->db_apt->getall();
         return $res;
     }
 
