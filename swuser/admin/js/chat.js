@@ -47,6 +47,7 @@ function listenEvent() {
         {
             //关闭连接
             alert( "你的帐号在别的地方登录");
+            ws.close();
             location.href = 'login.html';
         }
 

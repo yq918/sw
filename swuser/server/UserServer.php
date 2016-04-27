@@ -71,7 +71,7 @@ HTML;
                 'data' => '请输入用户名与密码'
             );
             $this->sendJson($client_id, $resMsg);
-            $this->close($client_id);
+            exit;
 
         }
         //查询用户信息
@@ -102,7 +102,7 @@ HTML;
                 'data' => 'redis  connent error'
             );
             $this->sendJson($client_id, $resMsg);
-            $this->close($client_id);
+           exit;
 
         }
 
@@ -117,8 +117,9 @@ HTML;
             );
             //将下线消息发送给之前的登录人
             $this->sendJson($clientinfo, $resMsg);
-            $this->close($clientinfo);
-        }
+            //$this->close($clientinfo);
+
+          }
 
         $redis -> set($key,$client_id);
         $resMsg = array(
