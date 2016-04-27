@@ -29,7 +29,7 @@ function listenEvent() {
         msg = new Object();
         msg.cmd = 'login';
         msg.name =muser;
-        msg.avatar = mpasswd;
+        msg.passwd = mpasswd;
         ws.send($.toJSON(msg));
     };
 

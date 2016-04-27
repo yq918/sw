@@ -175,7 +175,7 @@ HTML;
     function sendJson($client_id, $array)
     {
         file_put_contents('aa.log',var_export($array,true),FILE_APPEND);
-        
+
         $msg = json_encode($array);
         if ($this->send($client_id, $msg) === false)
         {

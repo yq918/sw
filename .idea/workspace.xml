@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a5da213b-4d05-4e7f-979b-22f19c06ed4e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swuser/server/UserServer.php" afterPath="$PROJECT_DIR$/swuser/server/UserServer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swuser/admin/js/chat.js" afterPath="$PROJECT_DIR$/swuser/admin/js/chat.js" />
     </list>
     <ignored path="sw.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserServer.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserServer.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/swuser/server/UserServer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.49816176" vertical-offset="3800" max-vertical-offset="7038">
-              <caret line="177" column="8" selection-start-line="177" selection-start-column="8" selection-end-line="177" selection-end-column="8" />
+            <state vertical-scroll-proportion="-6.3125" vertical-offset="1293" max-vertical-offset="7038">
+              <caret line="65" column="54" selection-start-line="65" selection-start-column="48" selection-end-line="65" selection-end-column="54" />
               <folding>
                 <element signature="e#21#39#0#PHP" expanded="true" />
               </folding>
@@ -81,28 +82,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="chat.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="chat.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/swuser/admin/js/chat.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="276" max-vertical-offset="2001">
-              <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.7586806" vertical-offset="276" max-vertical-offset="2001">
+              <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="chat.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/static/js/chat.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="276" max-vertical-offset="9315">
-              <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-              <folding>
-                <marker date="1461555861461" expanded="true" signature="5212:5224" placeholder="..." />
-                <marker date="1461555861461" expanded="true" signature="5436:5448" placeholder="..." />
-                <marker date="1461555861461" expanded="true" signature="5476:5489" placeholder="..." />
-                <marker date="1461555861461" expanded="true" signature="5882:5895" placeholder="..." />
-                <marker date="1461555861461" expanded="true" signature="6180:6193" placeholder="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -155,13 +140,13 @@
         <option value="$PROJECT_DIR$/swoole.ini" />
         <option value="$PROJECT_DIR$/swuser/user_server.php" />
         <option value="$PROJECT_DIR$/swuser/admin/index.html" />
-        <option value="$PROJECT_DIR$/swuser/admin/js/chat.js" />
         <option value="$PROJECT_DIR$/swuser/admin/login.html" />
         <option value="$PROJECT_DIR$/swuser/admin/controllers/checkprov.php" />
         <option value="$PROJECT_DIR$/swuser/config.php" />
         <option value="$PROJECT_DIR$/swuser/admin/controllers/login.php" />
         <option value="$PROJECT_DIR$/swuser/admin/index.php" />
         <option value="$PROJECT_DIR$/swuser/server/UserServer.php" />
+        <option value="$PROJECT_DIR$/swuser/admin/js/chat.js" />
       </list>
     </option>
   </component>
@@ -735,32 +720,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/static/js/chat.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="276" max-vertical-offset="9315">
-          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-          <folding>
-            <marker date="1461555861461" expanded="true" signature="5212:5224" placeholder="..." />
-            <marker date="1461555861461" expanded="true" signature="5436:5448" placeholder="..." />
-            <marker date="1461555861461" expanded="true" signature="5476:5489" placeholder="..." />
-            <marker date="1461555861461" expanded="true" signature="5882:5895" placeholder="..." />
-            <marker date="1461555861461" expanded="true" signature="6180:6193" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/main.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.75" vertical-offset="0" max-vertical-offset="3565">
           <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="9" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/swuser/admin/js/chat.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="276" max-vertical-offset="2001">
-          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
           <folding />
         </state>
       </provider>
@@ -773,13 +736,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/client/static/js/chat.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49023092" vertical-offset="276" max-vertical-offset="9315">
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+          <folding>
+            <marker date="1461555861461" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1461555861461" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1461555861461" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1461555861461" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1461555861461" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/swuser/server/UserServer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49816176" vertical-offset="3800" max-vertical-offset="7038">
-          <caret line="177" column="8" selection-start-line="177" selection-start-column="8" selection-end-line="177" selection-end-column="8" />
+        <state vertical-scroll-proportion="-6.3125" vertical-offset="1293" max-vertical-offset="7038">
+          <caret line="65" column="54" selection-start-line="65" selection-start-column="48" selection-end-line="65" selection-end-column="54" />
           <folding>
             <element signature="e#21#39#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swuser/admin/js/chat.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7586806" vertical-offset="276" max-vertical-offset="2001">
+          <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
