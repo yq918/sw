@@ -1311,7 +1311,8 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 <input type="hidden" value="<?php echo $_COOKIE['muser'];  ?>" name="muser" id="muser"/>
 <input type="hidden" value="<?php echo $_COOKIE['mpasswd']; ?>" name="mpasswd" id="mpasswd" />
 
-
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.json.js"></script>
     <script src="js/config.js"></script>
     <script src="js/chat.js"></script>
 
