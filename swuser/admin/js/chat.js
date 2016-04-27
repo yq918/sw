@@ -48,7 +48,7 @@ function listenEvent() {
             //关闭连接
             alert( "你的帐号在别的地方登录");
             ws.close();
-            location.href = 'index.html';
+            location.href = 'login.html';
 
             //client_id = $.evalJSON(e.data).fd;
             ////获取在线列表
@@ -66,6 +66,8 @@ function listenEvent() {
     ws.onclose = function (e) {
          if (confirm("聊天服务器已关闭")) {
             alert(e.data);
+             ws.close();
+             location.href = 'login.html';
         //    location.href = 'index.html';
         }
     };
@@ -76,6 +78,9 @@ function listenEvent() {
     ws.onerror = function (e) {
         alert("异常:" + e.data);
         console.log("onerror");
+        ws.close();
+        location.href = 'login.html';
+
     };
 }
 
