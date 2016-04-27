@@ -1301,7 +1301,7 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 					trigger: "hover"
 				});
 
-				prettyPrint();
+				//prettyPrint();
 
 			});
 

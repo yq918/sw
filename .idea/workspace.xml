@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a5da213b-4d05-4e7f-979b-22f19c06ed4e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swuser/admin/index.php" afterPath="$PROJECT_DIR$/swuser/admin/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sw.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -121,8 +120,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/swuser/admin/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.566855" vertical-offset="29921" max-vertical-offset="30475">
-              <caret line="1314" column="45" selection-start-line="1314" selection-start-column="45" selection-end-line="1314" selection-end-column="45" />
+            <state vertical-scroll-proportion="0.3502825" vertical-offset="29783" max-vertical-offset="30475">
+              <caret line="1303" column="18" selection-start-line="1303" selection-start-column="18" selection-end-line="1303" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -758,8 +757,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/swuser/admin/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.566855" vertical-offset="29921" max-vertical-offset="30475">
-          <caret line="1314" column="45" selection-start-line="1314" selection-start-column="45" selection-end-line="1314" selection-end-column="45" />
+        <state vertical-scroll-proportion="0.3502825" vertical-offset="29783" max-vertical-offset="30475">
+          <caret line="1303" column="18" selection-start-line="1303" selection-start-column="18" selection-end-line="1303" selection-end-column="18" />
           <folding />
         </state>
       </provider>
