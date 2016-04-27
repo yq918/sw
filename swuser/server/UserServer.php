@@ -43,7 +43,7 @@ HTML;
 
         if( self::getSession() !== NULL)
         {
-            self::getSession()->initSess();
+          //  self::getSession()->initSess();
         }
 
         self::$clconfig = $config;
@@ -87,10 +87,10 @@ HTML;
            // $this->close($client_id);
             exit;
         }
-        session_start();
-        $_SESSION['uname'] = $info['name'];
-        $_SESSION['user_id'] = $info['user_id'];
-        $_SESSION['utoken'] = md5($info['name'].self::$token);
+//        session_start();
+//        $_SESSION['uname'] = $info['name'];
+//        $_SESSION['user_id'] = $info['user_id'];
+//        $_SESSION['utoken'] = md5($info['name'].self::$token);
 
         $redis = self::getRedisInstance();
 
@@ -106,7 +106,7 @@ HTML;
             exit;
         }
 
-            $key = md5($_SESSION['uname']);
+            $key = md5($info['name']);
             $clientinfo =  $redis->get($key);
           if(isset($clientinfo) && !empty($clientinfo)){
             //表示已经有人登录了 回复给登录用户
