@@ -71,8 +71,8 @@ HTML;
                 'data' => '请输入用户名与密码'
             );
             $this->sendJson($client_id, $resMsg);
-          //  $this->close($client_id);
-            exit;
+            $this->close($client_id);
+
         }
         //查询用户信息
        // $userData =  self::getUserData($info['name'],$info['passwd']);
@@ -103,7 +103,7 @@ HTML;
             );
             $this->sendJson($client_id, $resMsg);
             $this->close($client_id);
-            exit;
+
         }
 
             $key = md5($info['name']);
@@ -118,7 +118,6 @@ HTML;
             //将下线消息发送给之前的登录人
             $this->sendJson($clientinfo, $resMsg);
             $this->close($clientinfo);
-            exit ;
         }
 
         $redis -> set($key,$client_id);
