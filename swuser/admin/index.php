@@ -25,7 +25,7 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 <!-- //chart -->
  <!-- js-->
 <script src="js/jquery-1.11.1.min.js"></script>
-<script src="js/modernizr.custom.js"></script>
+
 
 
 
@@ -41,8 +41,7 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 <!--//end-animate-->
 <!-- Metis Menu -->
 <script src="js/metisMenu.min.js"></script>
-<script src="js/custom.js"></script>
-<link href="css/custom.css" rel="stylesheet">
+
 <!--//Metis Menu -->
 </head> 
 <body class="cbp-spmenu-push">
@@ -442,32 +441,7 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 									</script>
 									<div id="example-8"></div>
 									
-									<script type="text/javascript">
-									  $(function() {
-										$('#example-8').jqCandlestick({
-										  data: data,
-										  theme: 'light',
-										  yAxis: [{
-											height: 7, // 7 / (7 + 3)
-										  }, {
-											height: 3, // 3 / (7 + 3)
-										  }],
-										  series: [{
-											type: 'candlestick',
-											upStroke: '#0C0',
-											downStroke: '#C00',
-											downColor: 'rgba(255, 0, 0, 0.4)',
-										  }, {
-											type: 'column',
-											name: 'VOLUME',
-											yAxis: 1,
-											stroke: '#00C',
-											color: 'rgba(0, 0, 255, 0.5)',
-										  }],
-										});
-									  });
-									</script>
-								</div>
+ 								</div>
 								<!-- //candlestick -->
 							</div>
 						</div>
