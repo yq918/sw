@@ -47,15 +47,14 @@ function listenEvent() {
         {
             //关闭连接
             alert( "你的帐号在别的地方登录");
-            ws.close();
             location.href = 'login.html';
+        }
 
-            //client_id = $.evalJSON(e.data).fd;
-            ////获取在线列表
-            //ws.send($.toJSON({cmd : 'getOnline'}));
-            ////获取历史记录
-            //ws.send($.toJSON({cmd : 'getHistory'}));
-            //alert( "收到消息了:"+e.data );
+        if (cmd == 'success')
+        {
+            //关闭连接
+            alert( "success");
+
         }
 
     };

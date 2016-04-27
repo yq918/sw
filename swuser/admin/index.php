@@ -460,19 +460,6 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 							<div class="panel-body">
 								<div class="lines-points">
 									<div id="example-4"></div>
-									<script type="text/javascript">
-									  $(function() {
-										$('#example-4').jqCandlestick({
-										  data: data,
-										  theme: 'light',
-										  series: [{
-											type: 'line',
-										  }, {
-											type: 'point',
-										  }],
-										});
-									  });
-									</script>
 								</div>
 							</div>
 						</div>
